@@ -3,6 +3,8 @@
 
 This way you can add your own notes, examples and tips when learning Groovy scripting.
 
+Download the latest release from [here](https://github.com/EdoFro/Freeplane_Apache_Groovy_Documentation_To_Map/releases/latest)
+
 Hope it helps!
 
 edo
