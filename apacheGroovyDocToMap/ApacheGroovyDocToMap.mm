@@ -1,9 +1,9 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Apache Groovy Doc to Map" FOLDED="false" ID="ID_885966712" CREATED="1611689719904" MODIFIED="1611689742214" LINK="https://github.com/EdoFro/Freeplane_Apache_Groovy_Documentation_To_Map" BACKGROUND_COLOR="#97c7dc" STYLE="oval">
+<node TEXT="Apache Groovy Doc to Map" FOLDED="false" ID="ID_885966712" LINK="https://github.com/EdoFro/Freeplane_Apache_Groovy_Documentation_To_Map" BACKGROUND_COLOR="#97c7dc" STYLE="oval">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -108,7 +108,7 @@
 </html>
 
 </richcontent>
-<node TEXT="description" POSITION="left" ID="ID_1961542267" CREATED="1611689719908" MODIFIED="1611689742245">
+<node TEXT="description" POSITION="left" ID="ID_1961542267">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -130,7 +130,7 @@
 </html>
 
 </richcontent>
-<node ID="ID_516188483" CREATED="1611689719908" MODIFIED="1611689719908"><richcontent TYPE="NODE">
+<node ID="ID_516188483"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -160,7 +160,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="changes" FOLDED="true" POSITION="left" ID="ID_1959275827" CREATED="1611689719908" MODIFIED="1611689742249">
+<node TEXT="changes" FOLDED="true" POSITION="left" ID="ID_1959275827">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -176,11 +176,11 @@
 </html>
 
 </richcontent>
-<node TEXT="v0.1" ID="ID_1175788363" CREATED="1611689719908" MODIFIED="1611689719908">
-<node TEXT="initial release" ID="ID_946188466" CREATED="1611689719908" MODIFIED="1611689719908"/>
+<node TEXT="v0.1" ID="ID_1175788363">
+<node TEXT="initial release" ID="ID_946188466"/>
 </node>
 </node>
-<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_1558324697" CREATED="1611689719908" MODIFIED="1611689742254">
+<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_1558324697">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -202,9 +202,9 @@
 </html>
 
 </richcontent>
-<node TEXT="&#xa;This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the&#xa;GNU General Public License for more details.&#xa;" ID="ID_669449" CREATED="1611689719908" MODIFIED="1611689719908"/>
+<node TEXT="&#xa;This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the&#xa;GNU General Public License for more details.&#xa;" ID="ID_669449"/>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_654321058" CREATED="1611689719908" MODIFIED="1611689742260">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_654321058">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -224,7 +224,7 @@
 
 </richcontent>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_962465616" CREATED="1611689719908" MODIFIED="1611689742265">
+<node TEXT="default.properties" POSITION="left" ID="ID_962465616">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -249,7 +249,7 @@
 
 </richcontent>
 </node>
-<node TEXT="translations" FOLDED="true" POSITION="left" ID="ID_1888964132" CREATED="1611689719908" MODIFIED="1611689742269">
+<node TEXT="translations" FOLDED="true" POSITION="left" ID="ID_1888964132">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -276,13 +276,13 @@
 </html>
 
 </richcontent>
-<node TEXT="en" ID="ID_1273265815" CREATED="1611689719908" MODIFIED="1611689719908">
+<node TEXT="en" ID="ID_1273265815">
 <attribute_layout NAME_WIDTH="162 pt" VALUE_WIDTH="162 pt"/>
 <attribute NAME="addons.${name}" VALUE="Apache Groovy Doc to Map"/>
 <attribute NAME="addons.${name}.ImportGroovyDoc" VALUE="Import Groovy Documentation Topic as a branch"/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_158316487" CREATED="1611689719908" MODIFIED="1611689742274">
+<node TEXT="deinstall" POSITION="left" ID="ID_158316487">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -302,7 +302,7 @@
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}.script.xml"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/ImportGroovyDoc.groovy"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_864831091" CREATED="1611689719909" MODIFIED="1611689742280">
+<node TEXT="scripts" POSITION="right" ID="ID_864831091">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -423,7 +423,7 @@
 </html>
 
 </richcontent>
-<node TEXT="ImportGroovyDoc.groovy" ID="ID_1699461725" CREATED="1611689719909" MODIFIED="1611689719909">
+<node TEXT="ImportGroovyDoc.groovy" ID="ID_1699461725">
 <attribute_layout NAME_WIDTH="202.49999 pt" VALUE_WIDTH="202.49999 pt"/>
 <attribute NAME="menuTitleKey" VALUE="addons.${name}.ImportGroovyDoc"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edoTools/addons.${name}"/>
@@ -436,7 +436,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="true"/>
 </node>
 </node>
-<node TEXT="lib" POSITION="right" ID="ID_1387366621" CREATED="1611689719909" MODIFIED="1611689742316">
+<node TEXT="lib" POSITION="right" ID="ID_1387366621">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
@@ -477,7 +477,7 @@
 
 </richcontent>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_1834259806" CREATED="1611689719909" MODIFIED="1611689742323">
+<node TEXT="zips" POSITION="right" ID="ID_1834259806">
 <edge COLOR="#007c7c"/>
 <richcontent TYPE="NOTE">
 
@@ -518,7 +518,7 @@
 
 </richcontent>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_906656687" CREATED="1611689719909" MODIFIED="1611689742328">
+<node TEXT="images" POSITION="right" ID="ID_906656687">
 <edge COLOR="#7c7c00"/>
 <richcontent TYPE="NOTE">
 

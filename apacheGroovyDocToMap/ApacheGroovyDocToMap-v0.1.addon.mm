@@ -1,6 +1,6 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Apache Groovy Doc to Map" FOLDED="false" ID="ID_885966712" CREATED="1611689719904" MODIFIED="1611689742214" LINK="https://github.com/EdoFro/Freeplane_Apache_Groovy_Documentation_To_Map" BACKGROUND_COLOR="#97c7dc" STYLE="oval">
+<node TEXT="Apache Groovy Doc to Map" FOLDED="false" ID="ID_885966712" LINK="https://github.com/EdoFro/Freeplane_Apache_Groovy_Documentation_To_Map" BACKGROUND_COLOR="#97c7dc" STYLE="oval">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
@@ -107,7 +107,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="description" POSITION="left" ID="ID_1961542267" CREATED="1611689719908" MODIFIED="1611689742245">
+<node TEXT="description" POSITION="left" ID="ID_1961542267">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -128,7 +128,7 @@
   </body>
 </html>
 </richcontent>
-<node ID="ID_516188483" CREATED="1611689719908" MODIFIED="1611689719908"><richcontent TYPE="NODE">
+<node ID="ID_516188483"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -158,7 +158,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="changes" FOLDED="true" POSITION="left" ID="ID_1959275827" CREATED="1611689719908" MODIFIED="1611689742249">
+<node TEXT="changes" FOLDED="true" POSITION="left" ID="ID_1959275827">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -173,11 +173,11 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="v0.1" ID="ID_1175788363" CREATED="1611689719908" MODIFIED="1611689719908">
-<node TEXT="initial release" ID="ID_946188466" CREATED="1611689719908" MODIFIED="1611689719908"/>
+<node TEXT="v0.1" ID="ID_1175788363">
+<node TEXT="initial release" ID="ID_946188466"/>
 </node>
 </node>
-<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_1558324697" CREATED="1611689719908" MODIFIED="1611689742254">
+<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_1558324697">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -198,9 +198,9 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#xa;This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the&#xa;GNU General Public License for more details.&#xa;" ID="ID_669449" CREATED="1611689719908" MODIFIED="1611689719908"/>
+<node TEXT="&#xa;This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the&#xa;GNU General Public License for more details.&#xa;" ID="ID_669449"/>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_654321058" CREATED="1611689719908" MODIFIED="1611689742260">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_654321058">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -219,7 +219,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_962465616" CREATED="1611689719908" MODIFIED="1611689742265">
+<node TEXT="default.properties" POSITION="left" ID="ID_962465616">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -243,7 +243,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="translations" FOLDED="true" POSITION="left" ID="ID_1888964132" CREATED="1611689719908" MODIFIED="1611689742269">
+<node TEXT="translations" FOLDED="true" POSITION="left" ID="ID_1888964132">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -269,13 +269,13 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="en" ID="ID_1273265815" CREATED="1611689719908" MODIFIED="1611689719908">
+<node TEXT="en" ID="ID_1273265815">
 <attribute_layout NAME_WIDTH="162 pt" VALUE_WIDTH="162 pt"/>
 <attribute NAME="addons.${name}" VALUE="Apache Groovy Doc to Map"/>
 <attribute NAME="addons.${name}.ImportGroovyDoc" VALUE="Import Groovy Documentation Topic as a branch"/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_158316487" CREATED="1611689719908" MODIFIED="1611689742274">
+<node TEXT="deinstall" POSITION="left" ID="ID_158316487">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -294,7 +294,7 @@
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}.script.xml"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/ImportGroovyDoc.groovy"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_864831091" CREATED="1611689719909" MODIFIED="1611689742280">
+<node TEXT="scripts" POSITION="right" ID="ID_864831091">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -414,7 +414,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="ImportGroovyDoc.groovy" FOLDED="true" ID="ID_1699461725" CREATED="1611689719909" MODIFIED="1611689719909">
+<node TEXT="ImportGroovyDoc.groovy" FOLDED="true" ID="ID_1699461725">
 <attribute_layout NAME_WIDTH="202.49999 pt" VALUE_WIDTH="202.49999 pt"/>
 <attribute NAME="menuTitleKey" VALUE="addons.${name}.ImportGroovyDoc"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edoTools/addons.${name}"/>
@@ -425,10 +425,10 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="true"/>
-<node TEXT="@Grab(&apos;org.jsoup:jsoup:1.13.1&apos;)&#xa;import org.jsoup.Jsoup&#xa;import org.jsoup.nodes.Document&#xa;import java.io.File&#xa;import javax.swing.JOptionPane&#xa;&#xa;def nodo = node&#xa;&#xa;def baseUrl = &quot;https://groovy-lang.org/&quot;&#xa;&#xa;Document doc&#xa;if (true){&#xa;    String url = &quot;https://groovy-lang.org/documentation.html&quot;&#xa;    doc = org.jsoup.Jsoup.connect(url).get()&#xa;} else {&#xa;    def inputFile = &quot;C:/Temp/sacando groovy scripts de página web/documentation.html&quot;&#xa;    File input = new File(inputFile)&#xa;    doc = Jsoup.parse(input, &quot;UTF-8&quot;, &quot;&quot;)&#xa;}&#xa;&#xa;def headers = doc.getElementById(&apos;content&apos;).getElementsByTag(&apos;h2&apos;)&#xa;String[] options = headers*.text()&#xa;def group = showInputDialogList(options,&apos;Apache Groovy documentation&apos;,&apos;Please select a topic&apos;,1)&#xa;&#xa;def topics = doc.getElementById(&apos;content&apos;).getElementsByTag(&apos;h2&apos;)[group].parent().getElementsByTag(&apos;li&apos;).flatten()&#xa;String[] titles = topics*.text()&#xa;def urls = topics*.getElementsByTag(&apos;a&apos;)*.attr(&apos;href&apos;).collect{ baseUrl + it}&#xa;// return urls&#xa;&#xa;String url =  urls[showInputDialogList(titles,&apos;Apache Groovy documentation&apos;,&apos;Please select a subtopic&apos;)]&#xa;// return url&#xa;&#xa;doc = org.jsoup.Jsoup.connect(url).get()&#xa;// return doc&#xa;def contenido = doc.getElementsByTag(&apos;h1&apos;)[0].parent()&#xa;&#xa;traducirSect2(contenido,nodo,0)&#xa;&#xa;&#xa;def traducirSect2(s2,n,i){&#xa;    def ndo = n&#xa;    def ndo2&#xa;    def j=0&#xa;    s2.children().each{ e -&gt;&#xa;        switch (e.tag().toString()){&#xa;            case &quot;h${i+1}&quot;:&#xa;                titulo = e.text()&#xa;                ndo = n.createChild(&quot;&lt;html&gt;${e.outerHtml()}&lt;/html&gt;&quot;)&#xa;                //ndo.style.name = &apos;styles.topic&apos;&#xa;                //ndo.folded = true&#xa;                //c.statusInfo = titulo&#xa;                break;&#xa;            case &quot;div&quot;:&#xa;                switch (e.className().toString()){&#xa;                    case &apos;paragraph&apos;:&#xa;                        ndo2 = ndo.createChild()&#xa;                       // ndo2.text = e.text()&#xa;                        ndo2.text =&quot;&lt;html&gt;${e.html()}&lt;/html&gt;&quot;&#xa;                        break&#xa;                    case &apos;listingblock&apos;:&#xa;                        def gr = e.getElementsByTag(&quot;code&quot;)[0]&#xa;                        def lang = gr.attr(&quot;data-lang&quot;)&#xa;                        gr.getElementsByTag(&apos;b&apos;).each{it.prepend(&quot;    //___note_&quot;).append(&quot;___&quot;)}&#xa;                        ndo2 = ndo.createChild( &quot;${titulo} - ${++j}&quot;) //&lt;code class=&quot;language-groovy&quot; data-lang=&quot;groovy&quot;&gt;&#xa;                        ndo2.note = gr.text()&#xa;                        //ndo2.note = &quot;&lt;html&gt;${gr.outerHtml()}&lt;/html&gt;&quot;&#xa;                        ndo2.details =&quot;.${lang}&quot;&#xa;                        break&#xa;                    case &apos;&apos;:&#xa;                        switch(e.id().toString()){&#xa;                            case &apos;preamble&apos;:&#xa;                                traducirSect2(e,ndo,i)&#xa;                                break&#xa;                        }&#xa;                        break&#xa;                    case &apos;sectionbody&apos;:&#xa;                        // ndo.folded = true&#xa;                        traducirSect2(e,ndo,i)&#xa;                        break&#xa;                    case ~/sect\d/:&#xa;                        // ndo.folded = true&#xa;                        traducirSect2(e,ndo,i+1)&#xa;                        break&#xa;                    case &apos;colist arabic&apos;:&#xa;                        e.getElementsByTag(&apos;tr&apos;)eachWithIndex{ ele,k -&gt;&#xa;                            // ndo2.createChild(ele.text()).icons.add(&quot;emoji-1F535&quot;) //&quot;&lt;html&gt;${e.html()}&lt;/html&gt;&quot;&#xa;                            // ndo2.createChild(ele.text()).icons.add(&quot;full-${k+1}&quot;) //&quot;&lt;html&gt;${e.html()}&lt;/html&gt;&quot;&#xa;                            ndo2.createChild(&quot;&lt;html&gt;${ele.outerHtml()}&lt;/html&gt;&quot;)   //.icons.add(&quot;full-${k+1}&quot;)&#xa;                        }&#xa;                    case &apos;ulist&apos;:&#xa;                        e.getElementsByTag(&apos;li&apos;)each{&#xa;                            // ndo2.createChild(it.text()) //&quot;&lt;html&gt;${e.html()}&lt;/html&gt;&quot;&#xa;                            ndo2.createChild(&quot;&lt;html&gt;${it.html()}&lt;/html&gt;&quot;).icons.add(&apos;emoji-1F539&apos;) //&quot;&lt;html&gt;${e.html()}&lt;/html&gt;&quot;&#xa;                        }&#xa;                        ndo2.icons.add(&quot;list&quot;)&#xa;                        break&#xa;                    case &apos;admonitionblock note&apos;:&#xa;                        def aN = e.getElementsByClass(&quot;content&quot;)&#xa;                        def ndo3 = ndo.createChild(&quot;&lt;html&gt;${aN.html()}&lt;/html&gt;&quot;)&#xa;                        ndo3.icons.add(&quot;clock2&quot;)&#xa;                        break&#xa;                    case &apos;admonitionblock tip&apos;:&#xa;                        def aN = e.getElementsByClass(&quot;content&quot;)&#xa;                        def ndo3 = ndo.createChild(&quot;&lt;html&gt;${aN.html()}&lt;/html&gt;&quot;)&#xa;                        ndo3.icons.add(&quot;idea&quot;)&#xa;                        break&#xa;                    case &apos;admonitionblock warning&apos;:&#xa;                        def aN = e.getElementsByClass(&quot;content&quot;)&#xa;                        def ndo3 = ndo.createChild(&quot;&lt;html&gt;${aN.html()}&lt;/html&gt;&quot;)&#xa;                        ndo3.icons.add(&quot;messagebox_warning&quot;)&#xa;                        break&#xa;                    default:&#xa;                        ndo.createChild(e.className().toString()).style.name = &quot;Tarea pendiente&quot;&#xa;                        break&#xa;                }&#xa;                break;&#xa;            case &apos;table&apos;:&#xa;                def titulo = e.getElementsByClass(&quot;title&quot;).text()?:&apos;Table&apos;&#xa;                ndo2 = ndo.createChild(titulo)&#xa;                //ndo.note = &quot;&lt;html&gt;${e.html()}&lt;/html&gt;&quot;&#xa;                ndo2.createChild(&quot;&lt;html&gt;${e.outerHtml()}&lt;/html&gt;&quot;)&#xa;                ndo2.icons.add(&quot;attach&quot;)&#xa;                break&#xa;            default:&#xa;                n.createChild(e.tag().toString()).style.name = &quot;Tarea pendiente&quot;&#xa;                break&#xa;        }&#xa;    }&#xa;    ndo.folded = true&#xa;}&#xa;&#xa;//region: UI&#xa;&#xa;    def showInputDialogList(String[] options, String title = &apos;Input dialog&apos;,String question = &apos;Please select an option&apos;,int defaultOption = 0){&#xa;        String result = (String)JOptionPane.showInputDialog(&#xa;           null,&#xa;           question,&#xa;           title,&#xa;           JOptionPane.QUESTION_MESSAGE,&#xa;           null,&#xa;           options,&#xa;           options[defaultOption]&#xa;        )&#xa;        return (options as ArrayList).indexOf(result)&#xa;    }&#xa;&#xa;//end" ID="ID_611276706" CREATED="1611689764655" MODIFIED="1611689764661"/>
+<node TEXT="@Grab(&apos;org.jsoup:jsoup:1.13.1&apos;)&#xa;import org.jsoup.Jsoup&#xa;import org.jsoup.nodes.Document&#xa;import java.io.File&#xa;import javax.swing.JOptionPane&#xa;&#xa;def nodo = node&#xa;&#xa;def baseUrl = &quot;https://groovy-lang.org/&quot;&#xa;&#xa;Document doc&#xa;if (true){&#xa;    String url = &quot;https://groovy-lang.org/documentation.html&quot;&#xa;    doc = org.jsoup.Jsoup.connect(url).get()&#xa;} else {&#xa;    def inputFile = &quot;C:/Temp/sacando groovy scripts de página web/documentation.html&quot;&#xa;    File input = new File(inputFile)&#xa;    doc = Jsoup.parse(input, &quot;UTF-8&quot;, &quot;&quot;)&#xa;}&#xa;&#xa;def headers = doc.getElementById(&apos;content&apos;).getElementsByTag(&apos;h2&apos;)&#xa;String[] options = headers*.text()&#xa;def group = showInputDialogList(options,&apos;Apache Groovy documentation&apos;,&apos;Please select a topic&apos;,1)&#xa;&#xa;def topics = doc.getElementById(&apos;content&apos;).getElementsByTag(&apos;h2&apos;)[group].parent().getElementsByTag(&apos;li&apos;).flatten()&#xa;String[] titles = topics*.text()&#xa;def urls = topics*.getElementsByTag(&apos;a&apos;)*.attr(&apos;href&apos;).collect{ baseUrl + it}&#xa;// return urls&#xa;&#xa;String url =  urls[showInputDialogList(titles,&apos;Apache Groovy documentation&apos;,&apos;Please select a subtopic&apos;)]&#xa;// return url&#xa;&#xa;doc = org.jsoup.Jsoup.connect(url).get()&#xa;// return doc&#xa;def contenido = doc.getElementsByTag(&apos;h1&apos;)[0].parent()&#xa;def j=0&#xa;&#xa;traducirSect2(contenido,nodo,0)&#xa;&#xa;&#xa;def traducirSect2(s2,n,i){&#xa;    def ndo = n&#xa;    def ndo2&#xa;    s2.children().each{ e -&gt;&#xa;        switch (e.tag().toString()){&#xa;            case &quot;h${i+1}&quot;:&#xa;                titulo = e.text()&#xa;                j = 0&#xa;                ndo = n.createChild(&quot;&lt;html&gt;${e.outerHtml()}&lt;/html&gt;&quot;)&#xa;                //ndo.style.name = &apos;styles.topic&apos;&#xa;                //ndo.folded = true&#xa;                //c.statusInfo = titulo&#xa;                break;&#xa;            case &quot;div&quot;:&#xa;                switch (e.className().toString()){&#xa;                    case &apos;paragraph&apos;:&#xa;                        ndo2 = ndo.createChild()&#xa;                       // ndo2.text = e.text()&#xa;                        ndo2.text =&quot;&lt;html&gt;${e.html()}&lt;/html&gt;&quot;&#xa;                        break&#xa;                    case &apos;listingblock&apos;:&#xa;                        ndo2 = ndo.createChild( &quot;&lt;html&gt;${e.html()}&lt;/html&gt;&quot;)&#xa;                        ndo2.style.backgroundColorCode = &apos;#66ffff&apos;&#xa;                        addCodeNode(e, ndo2)&#xa;                        break&#xa;                    case &apos;&apos;:&#xa;                        switch(e.id().toString()){&#xa;                            case &apos;preamble&apos;:&#xa;                                traducirSect2(e,ndo,i)&#xa;                                break&#xa;                        }&#xa;                        break&#xa;                    case [&apos;sectionbody&apos;,&apos;sidebarblock&apos;,&apos;content&apos;,&apos;exampleblock&apos;,&apos;dlist&apos;]:&#xa;                        // ndo.folded = true&#xa;                        traducirSect2(e,ndo,i)&#xa;                        break&#xa;                    case ~/sect\d/:&#xa;                        // ndo.folded = true&#xa;                        traducirSect2(e,ndo,i+1)&#xa;                        break&#xa;                    case &apos;title&apos;:&#xa;                        ndo = ndo.createChild( e.text())&#xa;                        ndo.style.name = &apos;styles.topic&apos;&#xa;                        break&#xa;                    case &apos;colist arabic&apos;:&#xa;                        e.getElementsByTag(&apos;tr&apos;)eachWithIndex{ ele,k -&gt;&#xa;                            // ndo2.createChild(ele.text()).icons.add(&quot;emoji-1F535&quot;) //&quot;&lt;html&gt;${e.html()}&lt;/html&gt;&quot;&#xa;                            // ndo2.createChild(ele.text()).icons.add(&quot;full-${k+1}&quot;) //&quot;&lt;html&gt;${e.html()}&lt;/html&gt;&quot;&#xa;                            ndo2.createChild(&quot;&lt;html&gt;${ele.outerHtml()}&lt;/html&gt;&quot;)   //.icons.add(&quot;full-${k+1}&quot;)&#xa;                        }&#xa;                    case [&apos;ulist&apos;,&apos;olist arabic&apos;]:&#xa;                        e.getElementsByTag(&apos;li&apos;)each{&#xa;                            // ndo2.createChild(it.text()) //&quot;&lt;html&gt;${e.html()}&lt;/html&gt;&quot;&#xa;                            def ndo3 = ndo2.createChild(&quot;&lt;html&gt;${it.html()}&lt;/html&gt;&quot;)&#xa;                            ndo3.icons.add(&apos;emoji-1F539&apos;)&#xa;                            addCodeNode(it, ndo3)&#xa;                        }&#xa;                        ndo2.icons.add(&quot;list&quot;)&#xa;                        break&#xa;                    case &apos;admonitionblock note&apos;:&#xa;                        def aN = e.getElementsByClass(&quot;content&quot;)&#xa;                        def ndo3 = ndo.createChild(&quot;&lt;html&gt;${aN.html()}&lt;/html&gt;&quot;)&#xa;                        ndo3.icons.add(&quot;clock2&quot;)&#xa;                        break&#xa;                    case &apos;admonitionblock tip&apos;:&#xa;                        def aN = e.getElementsByClass(&quot;content&quot;)&#xa;                        def ndo3 = ndo.createChild(&quot;&lt;html&gt;${aN.html()}&lt;/html&gt;&quot;)&#xa;                        ndo3.icons.add(&quot;idea&quot;)&#xa;                        break&#xa;                    case &apos;admonitionblock warning&apos;:&#xa;                        def aN = e.getElementsByClass(&quot;content&quot;)&#xa;                        def ndo3 = ndo.createChild(&quot;&lt;html&gt;${aN.html()}&lt;/html&gt;&quot;)&#xa;                        ndo3.icons.add(&quot;messagebox_warning&quot;)&#xa;                        break&#xa;                    case &apos;admonitionblock important&apos;:&#xa;                        def aN = e.getElementsByClass(&quot;content&quot;)&#xa;                        def ndo3 = ndo.createChild(&quot;&lt;html&gt;${aN.html()}&lt;/html&gt;&quot;)&#xa;                        ndo3.icons.add(&quot;yes&quot;)&#xa;                        break&#xa;                    case &apos;admonitionblock caution&apos;:&#xa;                        def aN = e.getElementsByClass(&quot;content&quot;)&#xa;                        def ndo3 = ndo.createChild(&quot;&lt;html&gt;${aN.html()}&lt;/html&gt;&quot;)&#xa;                        ndo3.icons.add(&quot;closed&quot;)&#xa;                        break&#xa;                    default:&#xa;                        ndo.createChild(e.className().toString()).style.name = &quot;Tarea pendiente&quot;&#xa;                        break&#xa;                }&#xa;                break;&#xa;            case &apos;table&apos;:&#xa;                def titulo = e.getElementsByClass(&quot;title&quot;).text()?:&apos;Table&apos;&#xa;                ndo2 = ndo.createChild(titulo)&#xa;                //ndo.note = &quot;&lt;html&gt;${e.html()}&lt;/html&gt;&quot;&#xa;                ndo2.icons.add(&quot;attach&quot;)&#xa;                // ndo2.createChild(&quot;&lt;html&gt;${e.outerHtml()}&lt;/html&gt;&quot;)&#xa;                ndo2.note = &quot;&quot;&quot;&lt;html&gt;&#xa;  &lt;head&gt;&#xa;    &lt;style type=&quot;text/css&quot;&gt;&#xa;      &lt;!--&#xa;        body { font-family: Dialog; font-size: 10pt; color: #000000; background-color: #ffffff; text-align: left }&#xa;        p { margin-top: 0 }&#xa;        table, th, td {border: 1px solid black}&#xa;      --&gt;&#xa;    &lt;/style&gt;&#xa;&#xa;  &lt;/head&gt;&#xa;  &lt;body&gt;&#xa;  ${e.outerHtml()}&#xa;  &lt;/body&gt;&#xa;&lt;/html&gt;&quot;&quot;&quot;&#xa;                ndo2.details = &quot;look table in node&apos;s note&quot;&#xa;                addCodeNode(e, ndo2)&#xa;                break&#xa;            case &apos;dl&apos;:&#xa;                traducirSect2(e,ndo,i)&#xa;                break&#xa;            case &apos;dt&apos;:&#xa;                ndo = n.createChild(&quot;&lt;html&gt;${e.html()}&lt;/html&gt;&quot;)&#xa;                break&#xa;            case &apos;dd&apos;:&#xa;                ndo.createChild(&quot;&lt;html&gt;${e.html()}&lt;/html&gt;&quot;)&#xa;                break&#xa;            default:&#xa;                n.createChild(e.tag().toString()).style.name = &quot;Tarea pendiente&quot;&#xa;                break&#xa;        }&#xa;    }&#xa;    ndo.folded = true&#xa;}&#xa;&#xa;&#xa;def addCodeNode(elem, n){&#xa;    def codes = elem.getElementsByTag(&quot;code&quot;).findAll{it.className().startsWith(&apos;language-&apos;)}&#xa;    codes.each{ gr -&gt;&#xa;        def lang = gr.attr(&quot;data-lang&quot;)&#xa;        gr.getElementsByTag(&apos;b&apos;).each{it.prepend(&quot;    //___note_&quot;).append(&quot;___&quot;)}&#xa;        def codeNode = n.createChild( &quot;${titulo} - ${++j}&quot;) //&lt;code class=&quot;language-groovy&quot; data-lang=&quot;groovy&quot;&gt;&#xa;        codeNode.note = gr.text()&#xa;        codeNode.style.backgroundColorCode = &apos;#66CCCC&apos;&#xa;        //codeNode.note = &quot;&lt;html&gt;${gr.outerHtml()}&lt;/html&gt;&quot;&#xa;        codeNode.details =&quot;.${lang}&quot;&#xa;    }&#xa;}&#xa;&#xa;//region: UI&#xa;&#xa;    def showInputDialogList(String[] options, String title = &apos;Input dialog&apos;,String question = &apos;Please select an option&apos;,int defaultOption = 0){&#xa;        String result = (String)JOptionPane.showInputDialog(&#xa;           null,&#xa;           question,&#xa;           title,&#xa;           JOptionPane.QUESTION_MESSAGE,&#xa;           null,&#xa;           options,&#xa;           options[defaultOption]&#xa;        )&#xa;        return (options as ArrayList).indexOf(result)&#xa;    }&#xa;&#xa;//end" ID="ID_1894860720"/>
 </node>
 </node>
-<node TEXT="lib" POSITION="right" ID="ID_1387366621" CREATED="1611689719909" MODIFIED="1611689742316">
+<node TEXT="lib" POSITION="right" ID="ID_1387366621">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
@@ -468,7 +468,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_1834259806" CREATED="1611689719909" MODIFIED="1611689742323">
+<node TEXT="zips" POSITION="right" ID="ID_1834259806">
 <edge COLOR="#007c7c"/>
 <richcontent TYPE="NOTE">
 
@@ -508,7 +508,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_906656687" CREATED="1611689719909" MODIFIED="1611689742328">
+<node TEXT="images" POSITION="right" ID="ID_906656687">
 <edge COLOR="#7c7c00"/>
 <richcontent TYPE="NOTE">
 

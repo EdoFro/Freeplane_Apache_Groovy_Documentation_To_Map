@@ -33,6 +33,7 @@ String url =  urls[showInputDialogList(titles,'Apache Groovy documentation','Ple
 doc = org.jsoup.Jsoup.connect(url).get()
 // return doc
 def contenido = doc.getElementsByTag('h1')[0].parent()
+def j=0
 
 traducirSect2(contenido,nodo,0)
 
@@ -40,11 +41,11 @@ traducirSect2(contenido,nodo,0)
 def traducirSect2(s2,n,i){
     def ndo = n
     def ndo2
-    def j=0
     s2.children().each{ e ->
         switch (e.tag().toString()){
             case "h${i+1}":
                 titulo = e.text()
+                j = 0
                 ndo = n.createChild("<html>${e.outerHtml()}</html>")
                 //ndo.style.name = 'styles.topic'
                 //ndo.folded = true
@@ -58,13 +59,9 @@ def traducirSect2(s2,n,i){
                         ndo2.text ="<html>${e.html()}</html>"
                         break
                     case 'listingblock':
-                        def gr = e.getElementsByTag("code")[0]
-                        def lang = gr.attr("data-lang")
-                        gr.getElementsByTag('b').each{it.prepend("    //___note_").append("___")}
-                        ndo2 = ndo.createChild( "${titulo} - ${++j}") //<code class="language-groovy" data-lang="groovy">
-                        ndo2.note = gr.text()
-                        //ndo2.note = "<html>${gr.outerHtml()}</html>"
-                        ndo2.details =".${lang}"
+                        ndo2 = ndo.createChild( "<html>${e.html()}</html>")
+                        ndo2.style.backgroundColorCode = '#66ffff'
+                        addCodeNode(e, ndo2)
                         break
                     case '':
                         switch(e.id().toString()){
@@ -73,7 +70,7 @@ def traducirSect2(s2,n,i){
                                 break
                         }
                         break
-                    case 'sectionbody':
+                    case ['sectionbody','sidebarblock','content','exampleblock','dlist']:
                         // ndo.folded = true
                         traducirSect2(e,ndo,i)
                         break
@@ -81,16 +78,22 @@ def traducirSect2(s2,n,i){
                         // ndo.folded = true
                         traducirSect2(e,ndo,i+1)
                         break
+                    case 'title':
+                        ndo = ndo.createChild( e.text())
+                        ndo.style.name = 'styles.topic'
+                        break
                     case 'colist arabic':
                         e.getElementsByTag('tr')eachWithIndex{ ele,k ->
                             // ndo2.createChild(ele.text()).icons.add("emoji-1F535") //"<html>${e.html()}</html>"
                             // ndo2.createChild(ele.text()).icons.add("full-${k+1}") //"<html>${e.html()}</html>"
                             ndo2.createChild("<html>${ele.outerHtml()}</html>")   //.icons.add("full-${k+1}")
                         }
-                    case 'ulist':
+                    case ['ulist','olist arabic']:
                         e.getElementsByTag('li')each{
                             // ndo2.createChild(it.text()) //"<html>${e.html()}</html>"
-                            ndo2.createChild("<html>${it.html()}</html>").icons.add('emoji-1F539') //"<html>${e.html()}</html>"
+                            def ndo3 = ndo2.createChild("<html>${it.html()}</html>")
+                            ndo3.icons.add('emoji-1F539')
+                            addCodeNode(it, ndo3)
                         }
                         ndo2.icons.add("list")
                         break
@@ -109,6 +112,16 @@ def traducirSect2(s2,n,i){
                         def ndo3 = ndo.createChild("<html>${aN.html()}</html>")
                         ndo3.icons.add("messagebox_warning")
                         break
+                    case 'admonitionblock important':
+                        def aN = e.getElementsByClass("content")
+                        def ndo3 = ndo.createChild("<html>${aN.html()}</html>")
+                        ndo3.icons.add("yes")
+                        break
+                    case 'admonitionblock caution':
+                        def aN = e.getElementsByClass("content")
+                        def ndo3 = ndo.createChild("<html>${aN.html()}</html>")
+                        ndo3.icons.add("closed")
+                        break
                     default:
                         ndo.createChild(e.className().toString()).style.name = "Tarea pendiente"
                         break
@@ -118,8 +131,34 @@ def traducirSect2(s2,n,i){
                 def titulo = e.getElementsByClass("title").text()?:'Table'
                 ndo2 = ndo.createChild(titulo)
                 //ndo.note = "<html>${e.html()}</html>"
-                ndo2.createChild("<html>${e.outerHtml()}</html>")
                 ndo2.icons.add("attach")
+                // ndo2.createChild("<html>${e.outerHtml()}</html>")
+                ndo2.note = """<html>
+  <head>
+    <style type="text/css">
+      <!--
+        body { font-family: Dialog; font-size: 10pt; color: #000000; background-color: #ffffff; text-align: left }
+        p { margin-top: 0 }
+        table, th, td {border: 1px solid black}
+      -->
+    </style>
+
+  </head>
+  <body>
+  ${e.outerHtml()}
+  </body>
+</html>"""
+                ndo2.details = "look table in node's note"
+                addCodeNode(e, ndo2)
+                break
+            case 'dl':
+                traducirSect2(e,ndo,i)
+                break
+            case 'dt':
+                ndo = n.createChild("<html>${e.html()}</html>")
+                break
+            case 'dd':
+                ndo.createChild("<html>${e.html()}</html>")
                 break
             default:
                 n.createChild(e.tag().toString()).style.name = "Tarea pendiente"
@@ -127,6 +166,20 @@ def traducirSect2(s2,n,i){
         }
     }
     ndo.folded = true
+}
+
+
+def addCodeNode(elem, n){
+    def codes = elem.getElementsByTag("code").findAll{it.className().startsWith('language-')}
+    codes.each{ gr ->
+        def lang = gr.attr("data-lang")
+        gr.getElementsByTag('b').each{it.prepend("    //___note_").append("___")}
+        def codeNode = n.createChild( "${titulo} - ${++j}") //<code class="language-groovy" data-lang="groovy">
+        codeNode.note = gr.text()
+        codeNode.style.backgroundColorCode = '#66CCCC'
+        //codeNode.note = "<html>${gr.outerHtml()}</html>"
+        codeNode.details =".${lang}"
+    }
 }
 
 //region: UI
